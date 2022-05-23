@@ -28,13 +28,13 @@
 nav{
     position: relative;
     background-color: #FFA000;
-    width: 100%;
+    width: auto;
     height: 48px;
     z-index: -1;
     
 }
 .listaMenu{
-    width: 100%;
+    width: auto;
     height: 48px;
     left: 0px;
     top: 117px;
@@ -78,12 +78,13 @@ li .item3{
     position: absolute;
     height: 61px;
     left: 250px;
-    top: 272px;
+    top: 292px;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 61px;
+    font-size: 80px;
+    line-height: 3px;
     color: #FFA000;
+    
 }
 .imagem{
     position: absolute;
@@ -255,7 +256,7 @@ footer {
     width: 100%;
     height: 119px;
     left: 0px;
-    top: 297px;
+    top: 800px;
     background: #FFC107;
 }
 .logoFooter{
@@ -280,4 +281,113 @@ footer .textoFooter p{
     color: #FFFFFF;
     margin-left: 520px;
     top: 55px;
+}
+
+.itens{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 81%;
+    height: 449px;
+    left: 250px;
+    top: 420px;
+}
+.itens img{
+    width:500px;
+}
+
+.itens p{
+    display: flex;
+    justify-content:center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32px;
+    margin-top:18px;
+}
+.itens .botao{
+    position: relative;
+    width: 180px;
+    height: 48px;
+    left: 32%;
+    background: #176902;
+}
+.botao p{
+    padding-top:8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.itens2{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 81%;
+    height: 449px;
+    left: 250px;
+    top: 1220px;
+}
+.itens2 img{
+    width:500px;
+}
+
+.itens2 p{
+    display: flex;
+    justify-content:center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32px;
+    margin-top:18px;
+}
+.itens2 .botao{
+    position: relative;
+    width: 180px;
+    height: 48px;
+    left: 32%;
+    background: #176902;
+}
+.itens3{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 81%;
+    height: 449px;
+    left: 250px;
+    top: 2020px;
+}
+.itens3 img{
+    width:500px;
+}
+
+.itens3 p{
+    display: flex;
+    justify-content:center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32px;
+    margin-top:18px;
+}
+.itens p a, .itens2 p a, .itens3 p a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+.itens3 .botao{
+    position: relative;
+    width: 180px;
+    height: 48px;
+    left: 32%;
+    background: #176902;
+    text-decoration: none;
+}
+.footerPag2 {
+    position: relative;
+    width: 100%;
+    height: 119px;
+    left: 0px;
+    top: 2690px;
+    background: #FFC107;
 }
